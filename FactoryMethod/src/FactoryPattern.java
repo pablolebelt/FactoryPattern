@@ -17,6 +17,7 @@ public class FactoryPattern {
         for (CarFactory cF : factory) {
             int currentSpeed = (int) (Math.random() * 150) + 50;
             cF.makeCar(currentSpeed).drive();
+            System.out.println("yeah");
         }
 
     }
